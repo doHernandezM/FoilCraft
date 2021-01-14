@@ -1,0 +1,194 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SunXiGPIO"
+- "=="
+provides-nominal:
+- "10SwiftyGPIO05SunXiB0V"
+- "10SwiftyGPIO05SunXiB0V6LetterO"
+provides-member:
+- ["10SwiftyGPIO05SunXiB0V", ""]
+- ["10SwiftyGPIO05SunXiB0V6LetterO", ""]
+- ["10SwiftyGPIO0B0C", ""]
+- ["10SwiftyGPIO05SunXiB0V", "Letter"]
+- ["10SwiftyGPIO0B0C", "init"]
+depends-top-level:
+- !private "&&"
+- !private "*"
+- !private "+"
+- "=="
+- "AssignmentPrecedence"
+- "Bool"
+- "CustomStringConvertible"
+- "Equatable"
+- "FloatLiteralType"
+- "GPIO"
+- "Int"
+- "IntegerLiteralType"
+- "String"
+- !private "StringLiteralType"
+- "SunXiGPIO"
+- "UInt"
+- !private "UnicodeScalarType"
+- !private "~="
+depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["Sz", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["SL", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "=="]
+- !private ["s23CustomStringConvertibleP", "Int"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "gpioPin"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "letter"]
+- !private ["s23CustomStringConvertibleP", "pin"]
+- !private ["s23CustomStringConvertibleP", "pinName"]
+- !private ["Se", "init"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "init"]
+- ["SQ", "=="]
+- !private ["SQ", "Int"]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "description"]
+- !private ["SQ", "gpioPin"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- !private ["SQ", "letter"]
+- !private ["SQ", "pin"]
+- !private ["SQ", "pinName"]
+- ["SQ", "rawValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- ["10SwiftyGPIO0B0C", "SunXiGPIO"]
+- ["10SwiftyGPIO0B0C", "init"]
+- ["SH", "=="]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- ["SH", "_rawHashValue"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "rawValue"]
+- !private ["Si", "init"]
+- ["10SwiftyGPIO05SunXiB0V6LetterO", "=="]
+- ["10SwiftyGPIO05SunXiB0V6LetterO", "A"]
+- ["10SwiftyGPIO05SunXiB0V6LetterO", "B"]
+- ["10SwiftyGPIO05SunXiB0V6LetterO", "C"]
+- ["10SwiftyGPIO05SunXiB0V6LetterO", "D"]
+- ["10SwiftyGPIO05SunXiB0V6LetterO", "E"]
+- ["10SwiftyGPIO05SunXiB0V6LetterO", "F"]
+- ["10SwiftyGPIO05SunXiB0V6LetterO", "G"]
+- ["10SwiftyGPIO05SunXiB0V6LetterO", "H"]
+- ["10SwiftyGPIO05SunXiB0V6LetterO", "I"]
+- ["10SwiftyGPIO05SunXiB0V6LetterO", "J"]
+- ["10SwiftyGPIO05SunXiB0V6LetterO", "K"]
+- ["10SwiftyGPIO05SunXiB0V6LetterO", "L"]
+- ["10SwiftyGPIO05SunXiB0V6LetterO", "M"]
+- ["10SwiftyGPIO05SunXiB0V6LetterO", "N"]
+- ["10SwiftyGPIO05SunXiB0V6LetterO", "O"]
+- ["10SwiftyGPIO05SunXiB0V6LetterO", "P"]
+- ["10SwiftyGPIO05SunXiB0V6LetterO", "Q"]
+- ["10SwiftyGPIO05SunXiB0V6LetterO", "R"]
+- ["10SwiftyGPIO05SunXiB0V6LetterO", "RawValue"]
+- ["10SwiftyGPIO05SunXiB0V6LetterO", "S"]
+- ["10SwiftyGPIO05SunXiB0V6LetterO", "T"]
+- ["10SwiftyGPIO05SunXiB0V6LetterO", "U"]
+- ["10SwiftyGPIO05SunXiB0V6LetterO", "V"]
+- ["10SwiftyGPIO05SunXiB0V6LetterO", "W"]
+- ["10SwiftyGPIO05SunXiB0V6LetterO", "X"]
+- ["10SwiftyGPIO05SunXiB0V6LetterO", "Y"]
+- ["10SwiftyGPIO05SunXiB0V6LetterO", "Z"]
+- ["10SwiftyGPIO05SunXiB0V6LetterO", "_Default_RawValue"]
+- ["10SwiftyGPIO05SunXiB0V6LetterO", "_rawHashValue"]
+- ["10SwiftyGPIO05SunXiB0V6LetterO", "deinit"]
+- ["10SwiftyGPIO05SunXiB0V6LetterO", "hash"]
+- ["10SwiftyGPIO05SunXiB0V6LetterO", "hashValue"]
+- ["10SwiftyGPIO05SunXiB0V6LetterO", "init"]
+- ["10SwiftyGPIO05SunXiB0V6LetterO", "rawValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["Sj", "init"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- ["SY", "_rawHashValue"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "rawValue"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- ["10SwiftyGPIO05SunXiB0V", "=="]
+- ["10SwiftyGPIO05SunXiB0V", "Int"]
+- ["10SwiftyGPIO05SunXiB0V", "Letter"]
+- ["10SwiftyGPIO05SunXiB0V", "String"]
+- ["10SwiftyGPIO05SunXiB0V", "UInt"]
+- ["10SwiftyGPIO05SunXiB0V", "deinit"]
+- ["10SwiftyGPIO05SunXiB0V", "description"]
+- ["10SwiftyGPIO05SunXiB0V", "gpioPin"]
+- ["10SwiftyGPIO05SunXiB0V", "init"]
+- ["10SwiftyGPIO05SunXiB0V", "letter"]
+- ["10SwiftyGPIO05SunXiB0V", "pin"]
+- ["10SwiftyGPIO05SunXiB0V", "pinName"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "Sz"
+- !private "s7CVarArgP"
+- !private "SL"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SE"
+- "SQ"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "10SwiftyGPIO0B0C"
+- "SH"
+- !private "Si"
+- "10SwiftyGPIO05SunXiB0V6LetterO"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "Sj"
+- "SY"
+- !private "s10SIMDScalarP"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "s27StringInterpolationProtocolP"
+- "10SwiftyGPIO05SunXiB0V"
+- !private "s16TextOutputStreamP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/usr/lib/swift/linux/armv6/Glibc.swiftmodule"
+- "/usr/lib/swift/linux/armv6/Dispatch.swiftmodule"
+- "/usr/lib/swift/linux/armv6/Foundation.swiftmodule"
+- "/usr/lib/swift/linux/armv6/Swift.swiftmodule"
+- "/usr/lib/swift/linux/armv6/SwiftOnoneSupport.swiftmodule"
+- "/usr/lib/swift/linux/armv6/glibc.modulemap"
+interface-hash: "b16e7d5c65f8d7142c6ad075dd2ef734"

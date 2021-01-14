@@ -1,0 +1,6 @@
+version: "Swift version 5.1.5 (swift-5.1.5-RELEASE)"
+options: "3745003866c41584ff20fcf8f8757a9e"
+build_time: [1609191663, 940033664]
+inputs:
+  "/home/pi/606OS/Sources/606OS/Avionics.swift": [1609190039, 881701659]
+  "/home/pi/606OS/Sources/606OS/main.swift": [1609191659, 701483689]

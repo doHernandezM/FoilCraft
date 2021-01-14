@@ -1,0 +1,28 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Avionics"
+provides-nominal:
+- "5_06OS8AvionicsC"
+provides-member:
+- ["5_06OS8AvionicsC", ""]
+depends-top-level:
+- "Avionics"
+- "String"
+- !private "print"
+depends-member:
+- ["5_06OS8AvionicsC", "String"]
+- ["5_06OS8AvionicsC", "init"]
+- !private ["5_06OS8AvionicsC", "print"]
+- ["5_06OS8AvionicsC", "receiveData"]
+depends-nominal:
+- "5_06OS8AvionicsC"
+depends-dynamic-lookup:
+depends-external:
+- "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.swiftmodule"
+- "/usr/lib/swift/linux/armv6/Glibc.swiftmodule"
+- "/usr/lib/swift/linux/armv6/Dispatch.swiftmodule"
+- "/usr/lib/swift/linux/armv6/Foundation.swiftmodule"
+- "/usr/lib/swift/linux/armv6/Swift.swiftmodule"
+- "/usr/lib/swift/linux/armv6/SwiftOnoneSupport.swiftmodule"
+- "/usr/lib/swift/linux/armv6/glibc.modulemap"
+interface-hash: "a9160370ef648cd32245dbbc95b945ca"

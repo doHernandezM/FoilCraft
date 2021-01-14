@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OS.build/master.swiftdeps"
+  },
+  "/home/pi/606OS/Sources/606OS/Avionics.swift": {
+    "dependencies": "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OS.build/Avionics.d",
+    "object": "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OS.build/Avionics.swift.o",
+    "swiftmodule": "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OS.build/Avionics~partial.swiftmodule",
+    "swift-dependencies": "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OS.build/Avionics.swiftdeps"
+  },
+  "/home/pi/606OS/Sources/606OS/main.swift": {
+    "dependencies": "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OS.build/main.d",
+    "object": "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OS.build/main.swift.o",
+    "swiftmodule": "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OS.build/main~partial.swiftmodule",
+    "swift-dependencies": "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OS.build/main.swiftdeps"
+  }
+}

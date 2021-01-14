@@ -1,0 +1,543 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SPIInterface"
+- "SysFSSPI"
+- "VirtualSPI"
+- "SPI_IOC_WR_MODE"
+- "SPI_IOC_RD_MODE"
+- "SPI_IOC_WR_BITS_PER_WORD"
+- "SPI_IOC_RD_BITS_PER_WORD"
+- "SPI_IOC_WR_MAX_SPEED_HZ"
+- "SPI_IOC_RD_MAX_SPEED_HZ"
+- "SPI_IOC_MESSAGE1"
+- "SPIBASEPATH"
+provides-nominal:
+- "10SwiftyGPIO12SPIInterfaceP"
+- "10SwiftyGPIO8SysFSSPIC"
+- "10SwiftyGPIO8SysFSSPIC16spi_ioc_transferV"
+- "10SwiftyGPIO10VirtualSPIC"
+provides-member:
+- ["10SwiftyGPIOAAV", ""]
+- ["10SwiftyGPIO12SPIInterfaceP", ""]
+- ["10SwiftyGPIO8SysFSSPIC", ""]
+- ["10SwiftyGPIO8SysFSSPIC16spi_ioc_transferV", ""]
+- ["10SwiftyGPIO10VirtualSPIC", ""]
+- ["10SwiftyGPIOAAV", "hardwareSPIs"]
+- ["10SwiftyGPIOAAV", "SPIRPI"]
+- ["10SwiftyGPIOAAV", "SPICHIP"]
+depends-top-level:
+- !private "!="
+- !private "&"
+- !private "&&"
+- !private "+"
+- !private "-"
+- !private "..."
+- !private "/"
+- !private "<"
+- !private "<<"
+- !private "=="
+- !private ">"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- !private "CChar"
+- "CInt"
+- !private "Double"
+- "FILE"
+- "FloatLiteralType"
+- "GPIO"
+- !private "GPIOBASEPATH"
+- "Int"
+- "IntegerLiteralType"
+- !private "MemoryLayout"
+- !private "O_RDWR"
+- "SPIBASEPATH"
+- "SPIInterface"
+- "SPI_IOC_MESSAGE1"
+- "SPI_IOC_RD_BITS_PER_WORD"
+- "SPI_IOC_RD_MAX_SPEED_HZ"
+- "SPI_IOC_RD_MODE"
+- "SPI_IOC_WR_BITS_PER_WORD"
+- "SPI_IOC_WR_MAX_SPEED_HZ"
+- "SPI_IOC_WR_MODE"
+- "String"
+- "StringLiteralType"
+- "SupportedBoard"
+- "SwiftyGPIO"
+- "SysFSSPI"
+- "TernaryPrecedence"
+- "UInt"
+- "UInt16"
+- "UInt32"
+- "UInt8"
+- !private "UnicodeScalarType"
+- "UnsafeMutablePointer"
+- "UnsafeMutableRawPointer"
+- "VirtualSPI"
+- !private "_IONBF"
+- !private "abort"
+- !private "close"
+- !private "fatalError"
+- !private "fclose"
+- !private "ferror"
+- !private "fopen"
+- !private "fread"
+- !private "fwrite"
+- !private "ioctl"
+- !private "open"
+- !private "perror"
+- !private "setvbuf"
+- !private "usleep"
+- !private "|="
+depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "init"]
+- !private ["Sa", "withUnsafeMutableBufferPointer"]
+- !private ["SK", "append"]
+- !private ["SK", "baseAddress"]
+- !private ["SK", "count"]
+- !private ["SK", "init"]
+- !private ["SK", "withUnsafeMutableBufferPointer"]
+- !private ["SB", "init"]
+- !private ["Sz", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["Sl", "append"]
+- !private ["Sl", "baseAddress"]
+- !private ["Sl", "count"]
+- !private ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "withUnsafeMutableBufferPointer"]
+- !private ["SL", "init"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "baseAddress"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "withUnsafeMutableBufferPointer"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "baseAddress"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "withUnsafeMutableBufferPointer"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "withUnsafeMutableBufferPointer"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "direction"]
+- !private ["s23CustomStringConvertibleP", "id"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isMemoryMapped"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "value"]
+- !private ["s23CustomStringConvertibleP", "withUnsafeMutableBufferPointer"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "withUnsafeMutableBufferPointer"]
+- ["Se", "CHIP"]
+- !private ["Se", "IN"]
+- !private ["Se", "OUT"]
+- ["Se", "RaspberryPi2"]
+- ["Se", "RaspberryPi3"]
+- ["Se", "RaspberryPiPlusZero"]
+- ["Se", "RaspberryPiRev1"]
+- ["Se", "RaspberryPiRev2"]
+- !private ["Se", "append"]
+- !private ["Se", "count"]
+- !private ["Se", "init"]
+- !private ["Se", "subscript"]
+- !private ["Se", "withUnsafeMutableBufferPointer"]
+- !private ["SD", "subscript"]
+- !private ["Sd", "init"]
+- ["SE", "CHIP"]
+- !private ["SE", "IN"]
+- !private ["SE", "OUT"]
+- ["SE", "RaspberryPi2"]
+- ["SE", "RaspberryPi3"]
+- ["SE", "RaspberryPiPlusZero"]
+- ["SE", "RaspberryPiRev1"]
+- ["SE", "RaspberryPiRev2"]
+- !private ["SE", "append"]
+- !private ["SE", "count"]
+- !private ["SE", "init"]
+- !private ["SE", "subscript"]
+- !private ["SE", "withUnsafeMutableBufferPointer"]
+- ["SQ", "CHIP"]
+- !private ["SQ", "IN"]
+- !private ["SQ", "OUT"]
+- ["SQ", "RaspberryPi2"]
+- ["SQ", "RaspberryPi3"]
+- ["SQ", "RaspberryPiPlusZero"]
+- ["SQ", "RaspberryPiRev1"]
+- ["SQ", "RaspberryPiRev2"]
+- !private ["SQ", "append"]
+- !private ["SQ", "count"]
+- !private ["SQ", "init"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "withUnsafeMutableBufferPointer"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "withUnsafeMutableBufferPointer"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SF", "init"]
+- !private ["10SwiftyGPIO0B0C", "direction"]
+- !private ["10SwiftyGPIO0B0C", "id"]
+- !private ["10SwiftyGPIO0B0C", "isMemoryMapped"]
+- !private ["10SwiftyGPIO0B0C", "value"]
+- !private ["10SwiftyGPIO13GPIODirectionO", "IN"]
+- !private ["10SwiftyGPIO13GPIODirectionO", "OUT"]
+- ["SH", "CHIP"]
+- !private ["SH", "IN"]
+- !private ["SH", "OUT"]
+- ["SH", "RaspberryPi2"]
+- ["SH", "RaspberryPi3"]
+- ["SH", "RaspberryPiPlusZero"]
+- ["SH", "RaspberryPiRev1"]
+- ["SH", "RaspberryPiRev2"]
+- !private ["SH", "append"]
+- !private ["SH", "count"]
+- !private ["SH", "init"]
+- !private ["SH", "subscript"]
+- !private ["SH", "withUnsafeMutableBufferPointer"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s12MemoryLayoutO", "stride"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "append"]
+- !private ["SM", "baseAddress"]
+- !private ["SM", "count"]
+- !private ["SM", "init"]
+- !private ["SM", "withUnsafeMutableBufferPointer"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "withUnsafeMutableBufferPointer"]
+- !private ["Sj", "init"]
+- !private ["Sk", "append"]
+- !private ["Sk", "baseAddress"]
+- !private ["Sk", "count"]
+- !private ["Sk", "init"]
+- !private ["Sk", "withUnsafeMutableBufferPointer"]
+- !private ["Sm", "append"]
+- !private ["Sm", "count"]
+- !private ["Sm", "init"]
+- !private ["Sm", "withUnsafeMutableBufferPointer"]
+- ["SY", "CHIP"]
+- !private ["SY", "IN"]
+- !private ["SY", "OUT"]
+- ["SY", "RaspberryPi2"]
+- ["SY", "RaspberryPi3"]
+- ["SY", "RaspberryPiPlusZero"]
+- ["SY", "RaspberryPiRev1"]
+- ["SY", "RaspberryPiRev2"]
+- !private ["s10SIMDScalarP", "init"]
+- ["10SwiftyGPIO12SPIInterfaceP", "Bool"]
+- !private ["10SwiftyGPIO12SPIInterfaceP", "Double"]
+- !private ["10SwiftyGPIO12SPIInterfaceP", "GPIOBASEPATH"]
+- !private ["10SwiftyGPIO12SPIInterfaceP", "MemoryLayout"]
+- !private ["10SwiftyGPIO12SPIInterfaceP", "O_RDWR"]
+- !private ["10SwiftyGPIO12SPIInterfaceP", "SPIBASEPATH"]
+- !private ["10SwiftyGPIO12SPIInterfaceP", "SPI_IOC_MESSAGE1"]
+- !private ["10SwiftyGPIO12SPIInterfaceP", "SPI_IOC_RD_BITS_PER_WORD"]
+- !private ["10SwiftyGPIO12SPIInterfaceP", "SPI_IOC_RD_MAX_SPEED_HZ"]
+- !private ["10SwiftyGPIO12SPIInterfaceP", "SPI_IOC_RD_MODE"]
+- !private ["10SwiftyGPIO12SPIInterfaceP", "SPI_IOC_WR_BITS_PER_WORD"]
+- !private ["10SwiftyGPIO12SPIInterfaceP", "SPI_IOC_WR_MAX_SPEED_HZ"]
+- !private ["10SwiftyGPIO12SPIInterfaceP", "SPI_IOC_WR_MODE"]
+- !private ["10SwiftyGPIO12SPIInterfaceP", "String"]
+- ["10SwiftyGPIO12SPIInterfaceP", "UInt"]
+- !private ["10SwiftyGPIO12SPIInterfaceP", "UInt32"]
+- ["10SwiftyGPIO12SPIInterfaceP", "UInt8"]
+- ["10SwiftyGPIO12SPIInterfaceP", ""]
+- !private ["10SwiftyGPIO12SPIInterfaceP", "_IONBF"]
+- !private ["10SwiftyGPIO12SPIInterfaceP", "abort"]
+- !private ["10SwiftyGPIO12SPIInterfaceP", "bits"]
+- !private ["10SwiftyGPIO12SPIInterfaceP", "clockGPIO"]
+- !private ["10SwiftyGPIO12SPIInterfaceP", "close"]
+- !private ["10SwiftyGPIO12SPIInterfaceP", "csGPIO"]
+- !private ["10SwiftyGPIO12SPIInterfaceP", "delay"]
+- !private ["10SwiftyGPIO12SPIInterfaceP", "fatalError"]
+- !private ["10SwiftyGPIO12SPIInterfaceP", "fclose"]
+- !private ["10SwiftyGPIO12SPIInterfaceP", "ferror"]
+- !private ["10SwiftyGPIO12SPIInterfaceP", "fopen"]
+- !private ["10SwiftyGPIO12SPIInterfaceP", "fread"]
+- !private ["10SwiftyGPIO12SPIInterfaceP", "fwrite"]
+- ["10SwiftyGPIO12SPIInterfaceP", "init"]
+- !private ["10SwiftyGPIO12SPIInterfaceP", "ioctl"]
+- ["10SwiftyGPIO12SPIInterfaceP", "isHardware"]
+- !private ["10SwiftyGPIO12SPIInterfaceP", "misoGPIO"]
+- !private ["10SwiftyGPIO12SPIInterfaceP", "mode"]
+- !private ["10SwiftyGPIO12SPIInterfaceP", "mosiGPIO"]
+- !private ["10SwiftyGPIO12SPIInterfaceP", "open"]
+- !private ["10SwiftyGPIO12SPIInterfaceP", "perror"]
+- !private ["10SwiftyGPIO12SPIInterfaceP", "readFromFP"]
+- ["10SwiftyGPIO12SPIInterfaceP", "sendData"]
+- ["10SwiftyGPIO12SPIInterfaceP", "sendDataAndRead"]
+- !private ["10SwiftyGPIO12SPIInterfaceP", "sendDataGPIOObj"]
+- !private ["10SwiftyGPIO12SPIInterfaceP", "sendDataSysFSGPIO"]
+- !private ["10SwiftyGPIO12SPIInterfaceP", "setvbuf"]
+- !private ["10SwiftyGPIO12SPIInterfaceP", "speed"]
+- !private ["10SwiftyGPIO12SPIInterfaceP", "spiId"]
+- !private ["10SwiftyGPIO12SPIInterfaceP", "spi_ioc_transfer"]
+- !private ["10SwiftyGPIO12SPIInterfaceP", "transferData"]
+- !private ["10SwiftyGPIO12SPIInterfaceP", "usleep"]
+- !private ["10SwiftyGPIO12SPIInterfaceP", "writeToFP"]
+- !private ["ST", "append"]
+- !private ["ST", "baseAddress"]
+- !private ["ST", "count"]
+- !private ["ST", "init"]
+- !private ["ST", "subscript"]
+- !private ["ST", "withUnsafeMutableBufferPointer"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- ["10SwiftyGPIO14SupportedBoardO", "CHIP"]
+- ["10SwiftyGPIO14SupportedBoardO", "RaspberryPi2"]
+- ["10SwiftyGPIO14SupportedBoardO", "RaspberryPi3"]
+- ["10SwiftyGPIO14SupportedBoardO", "RaspberryPiPlusZero"]
+- ["10SwiftyGPIO14SupportedBoardO", "RaspberryPiRev1"]
+- ["10SwiftyGPIO14SupportedBoardO", "RaspberryPiRev2"]
+- ["10SwiftyGPIOAAV", "Int"]
+- ["10SwiftyGPIOAAV", "SPICHIP"]
+- ["10SwiftyGPIOAAV", "SPIInterface"]
+- ["10SwiftyGPIOAAV", "SPIRPI"]
+- ["10SwiftyGPIOAAV", "SupportedBoard"]
+- ["10SwiftyGPIOAAV", "SysFSSPI"]
+- ["10SwiftyGPIOAAV", "hardwareSPIs"]
+- ["10SwiftyGPIO8SysFSSPIC", "CInt"]
+- !private ["10SwiftyGPIO8SysFSSPIC", "O_RDWR"]
+- !private ["10SwiftyGPIO8SysFSSPIC", "SPIBASEPATH"]
+- !private ["10SwiftyGPIO8SysFSSPIC", "SPI_IOC_MESSAGE1"]
+- !private ["10SwiftyGPIO8SysFSSPIC", "SPI_IOC_RD_BITS_PER_WORD"]
+- !private ["10SwiftyGPIO8SysFSSPIC", "SPI_IOC_RD_MAX_SPEED_HZ"]
+- !private ["10SwiftyGPIO8SysFSSPIC", "SPI_IOC_RD_MODE"]
+- !private ["10SwiftyGPIO8SysFSSPIC", "SPI_IOC_WR_BITS_PER_WORD"]
+- !private ["10SwiftyGPIO8SysFSSPIC", "SPI_IOC_WR_MAX_SPEED_HZ"]
+- !private ["10SwiftyGPIO8SysFSSPIC", "SPI_IOC_WR_MODE"]
+- ["10SwiftyGPIO8SysFSSPIC", "String"]
+- ["10SwiftyGPIO8SysFSSPIC", "UInt"]
+- ["10SwiftyGPIO8SysFSSPIC", "UInt16"]
+- ["10SwiftyGPIO8SysFSSPIC", "UInt32"]
+- ["10SwiftyGPIO8SysFSSPIC", "UInt8"]
+- ["10SwiftyGPIO8SysFSSPIC", "UnsafeMutableRawPointer"]
+- !private ["10SwiftyGPIO8SysFSSPIC", "abort"]
+- ["10SwiftyGPIO8SysFSSPIC", "bits"]
+- !private ["10SwiftyGPIO8SysFSSPIC", "close"]
+- ["10SwiftyGPIO8SysFSSPIC", "deinit"]
+- ["10SwiftyGPIO8SysFSSPIC", "delay"]
+- !private ["10SwiftyGPIO8SysFSSPIC", "fatalError"]
+- ["10SwiftyGPIO8SysFSSPIC", "getBitsPerWord"]
+- ["10SwiftyGPIO8SysFSSPIC", "getMaxSpeedHz"]
+- ["10SwiftyGPIO8SysFSSPIC", "getMode"]
+- ["10SwiftyGPIO8SysFSSPIC", "init"]
+- !private ["10SwiftyGPIO8SysFSSPIC", "ioctl"]
+- ["10SwiftyGPIO8SysFSSPIC", "isHardware"]
+- ["10SwiftyGPIO8SysFSSPIC", "mode"]
+- !private ["10SwiftyGPIO8SysFSSPIC", "open"]
+- !private ["10SwiftyGPIO8SysFSSPIC", "perror"]
+- ["10SwiftyGPIO8SysFSSPIC", "sendData"]
+- ["10SwiftyGPIO8SysFSSPIC", "sendDataAndRead"]
+- ["10SwiftyGPIO8SysFSSPIC", "setBitsPerWord"]
+- ["10SwiftyGPIO8SysFSSPIC", "setMaxSpeedHz"]
+- ["10SwiftyGPIO8SysFSSPIC", "setMode"]
+- ["10SwiftyGPIO8SysFSSPIC", "speed"]
+- ["10SwiftyGPIO8SysFSSPIC", "spiId"]
+- ["10SwiftyGPIO8SysFSSPIC", "spi_ioc_transfer"]
+- !private ["10SwiftyGPIO8SysFSSPIC", "transferData"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s6UInt32V", "init"]
+- !private ["s5UInt8V", "init"]
+- !private ["Sr", "baseAddress"]
+- !private ["Sr", "count"]
+- !private ["SU", "init"]
+- ["10SwiftyGPIO10VirtualSPIC", "Bool"]
+- !private ["10SwiftyGPIO10VirtualSPIC", "CChar"]
+- !private ["10SwiftyGPIO10VirtualSPIC", "Double"]
+- ["10SwiftyGPIO10VirtualSPIC", "FILE"]
+- ["10SwiftyGPIO10VirtualSPIC", "GPIO"]
+- !private ["10SwiftyGPIO10VirtualSPIC", "GPIOBASEPATH"]
+- !private ["10SwiftyGPIO10VirtualSPIC", "Int"]
+- !private ["10SwiftyGPIO10VirtualSPIC", "MemoryLayout"]
+- ["10SwiftyGPIO10VirtualSPIC", "String"]
+- ["10SwiftyGPIO10VirtualSPIC", "UInt"]
+- !private ["10SwiftyGPIO10VirtualSPIC", "UInt32"]
+- ["10SwiftyGPIO10VirtualSPIC", "UInt8"]
+- ["10SwiftyGPIO10VirtualSPIC", "UnsafeMutablePointer"]
+- !private ["10SwiftyGPIO10VirtualSPIC", "_IONBF"]
+- !private ["10SwiftyGPIO10VirtualSPIC", "abort"]
+- ["10SwiftyGPIO10VirtualSPIC", "clockGPIO"]
+- ["10SwiftyGPIO10VirtualSPIC", "csGPIO"]
+- ["10SwiftyGPIO10VirtualSPIC", "deinit"]
+- !private ["10SwiftyGPIO10VirtualSPIC", "fclose"]
+- !private ["10SwiftyGPIO10VirtualSPIC", "ferror"]
+- !private ["10SwiftyGPIO10VirtualSPIC", "fopen"]
+- !private ["10SwiftyGPIO10VirtualSPIC", "fread"]
+- !private ["10SwiftyGPIO10VirtualSPIC", "fwrite"]
+- ["10SwiftyGPIO10VirtualSPIC", "init"]
+- ["10SwiftyGPIO10VirtualSPIC", "isHardware"]
+- ["10SwiftyGPIO10VirtualSPIC", "misoGPIO"]
+- ["10SwiftyGPIO10VirtualSPIC", "mosiGPIO"]
+- !private ["10SwiftyGPIO10VirtualSPIC", "perror"]
+- !private ["10SwiftyGPIO10VirtualSPIC", "readFromFP"]
+- ["10SwiftyGPIO10VirtualSPIC", "sendData"]
+- ["10SwiftyGPIO10VirtualSPIC", "sendDataAndRead"]
+- !private ["10SwiftyGPIO10VirtualSPIC", "sendDataGPIOObj"]
+- !private ["10SwiftyGPIO10VirtualSPIC", "sendDataSysFSGPIO"]
+- !private ["10SwiftyGPIO10VirtualSPIC", "setvbuf"]
+- !private ["10SwiftyGPIO10VirtualSPIC", "usleep"]
+- !private ["10SwiftyGPIO10VirtualSPIC", "writeToFP"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "withUnsafeMutableBufferPointer"]
+- !private ["10Foundation13_CFBridgeableP", "append"]
+- !private ["10Foundation13_CFBridgeableP", "count"]
+- !private ["10Foundation13_CFBridgeableP", "init"]
+- !private ["10Foundation13_CFBridgeableP", "subscript"]
+- !private ["10Foundation13_CFBridgeableP", "withUnsafeMutableBufferPointer"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "withUnsafeMutableBufferPointer"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "baseAddress"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "withUnsafeMutableBufferPointer"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "withUnsafeMutableBufferPointer"]
+- !private ["10Foundation13_NSBridgeableP", "append"]
+- !private ["10Foundation13_NSBridgeableP", "count"]
+- !private ["10Foundation13_NSBridgeableP", "init"]
+- !private ["10Foundation13_NSBridgeableP", "subscript"]
+- !private ["10Foundation13_NSBridgeableP", "withUnsafeMutableBufferPointer"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "withUnsafeMutableBufferPointer"]
+- !private ["s14_StringElementP", "init"]
+- ["10SwiftyGPIO8SysFSSPIC16spi_ioc_transferV", "UInt16"]
+- ["10SwiftyGPIO8SysFSSPIC16spi_ioc_transferV", "UInt32"]
+- ["10SwiftyGPIO8SysFSSPIC16spi_ioc_transferV", "UInt8"]
+- ["10SwiftyGPIO8SysFSSPIC16spi_ioc_transferV", "UnsafeMutableRawPointer"]
+- ["10SwiftyGPIO8SysFSSPIC16spi_ioc_transferV", "bits_per_word"]
+- ["10SwiftyGPIO8SysFSSPIC16spi_ioc_transferV", "cs_change"]
+- ["10SwiftyGPIO8SysFSSPIC16spi_ioc_transferV", "delay_usecs"]
+- ["10SwiftyGPIO8SysFSSPIC16spi_ioc_transferV", "init"]
+- ["10SwiftyGPIO8SysFSSPIC16spi_ioc_transferV", "len"]
+- ["10SwiftyGPIO8SysFSSPIC16spi_ioc_transferV", "pad"]
+- ["10SwiftyGPIO8SysFSSPIC16spi_ioc_transferV", "rx_buf"]
+- ["10SwiftyGPIO8SysFSSPIC16spi_ioc_transferV", "rx_nbits"]
+- ["10SwiftyGPIO8SysFSSPIC16spi_ioc_transferV", "speed_hz"]
+- ["10SwiftyGPIO8SysFSSPIC16spi_ioc_transferV", "tx_buf"]
+- ["10SwiftyGPIO8SysFSSPIC16spi_ioc_transferV", "tx_nbits"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- !private "SK"
+- !private "SB"
+- !private "Sz"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- !private "SD"
+- !private "Sd"
+- "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "SF"
+- !private "10SwiftyGPIO0B0C"
+- !private "10SwiftyGPIO13GPIODirectionO"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s12MemoryLayoutO"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "Sj"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- !private "s10SIMDScalarP"
+- "10SwiftyGPIO12SPIInterfaceP"
+- !private "ST"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "SS"
+- !private "Sy"
+- "10SwiftyGPIO14SupportedBoardO"
+- "10SwiftyGPIOAAV"
+- "10SwiftyGPIO8SysFSSPIC"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s6UInt32V"
+- !private "s5UInt8V"
+- !private "Sr"
+- !private "SU"
+- "10SwiftyGPIO10VirtualSPIC"
+- !private "s14_ArrayProtocolP"
+- !private "10Foundation13_CFBridgeableP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation13_NSBridgeableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s14_StringElementP"
+- "10SwiftyGPIO8SysFSSPIC16spi_ioc_transferV"
+depends-dynamic-lookup:
+depends-external:
+- "/usr/lib/swift/linux/armv6/Glibc.swiftmodule"
+- "/usr/lib/swift/linux/armv6/Dispatch.swiftmodule"
+- "/usr/lib/swift/linux/armv6/Foundation.swiftmodule"
+- "/usr/lib/swift/linux/armv6/Swift.swiftmodule"
+- "/usr/lib/swift/linux/armv6/SwiftOnoneSupport.swiftmodule"
+- "/usr/lib/swift/linux/armv6/glibc.modulemap"
+interface-hash: "23643fc01152ed458c52ba9a413c6f43"

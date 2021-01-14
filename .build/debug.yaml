@@ -1,0 +1,150 @@
+client:
+  name: basic
+tools: {}
+targets:
+  "main": ["/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/606OS","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OS.swiftmodule","<606OS-debug.exe>","<606OS-debug.module>"]
+  "test": ["/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/606OS","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/606OSPackageTests.xctest","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OS.swiftmodule","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OSTests.swiftmodule","<606OS-debug.exe>","<606OS-debug.module>","<606OSPackageTests-debug.test>","<606OSTests-debug.module>"]
+  "606OS-debug.exe": ["/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/606OS","<606OS-debug.exe>"]
+  "606OS-debug.module": ["/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OS.swiftmodule","<606OS-debug.module>"]
+  "606OSPackageTests-debug.module": ["/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OSPackageTests.swiftmodule","<606OSPackageTests-debug.module>"]
+  "606OSPackageTests-debug.test": ["/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/606OSPackageTests.xctest","<606OSPackageTests-debug.test>"]
+  "606OSTests-debug.module": ["/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OSTests.swiftmodule","<606OSTests-debug.module>"]
+  "SwiftyGPIO-debug.module": ["/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.swiftmodule","<SwiftyGPIO-debug.module>"]
+default: "main"
+commands: 
+  "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/SwiftyGPIO.swiftmodule.o":
+    tool: shell
+    description: "Wrapping AST for SwiftyGPIO for debugging"
+    inputs: ["/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.swiftmodule"]
+    outputs: ["/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/SwiftyGPIO.swiftmodule.o"]
+    args: ["/usr/bin/swiftc","-modulewrap","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.swiftmodule","-o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/SwiftyGPIO.swiftmodule.o"]
+
+  "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OS.build/_06OS.swiftmodule.o":
+    tool: shell
+    description: "Wrapping AST for 606OS for debugging"
+    inputs: ["/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OS.swiftmodule"]
+    outputs: ["/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OS.build/_06OS.swiftmodule.o"]
+    args: ["/usr/bin/swiftc","-modulewrap","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OS.swiftmodule","-o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OS.build/_06OS.swiftmodule.o"]
+
+  "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OSPackageTests.build/_06OSPackageTests.swiftmodule.o":
+    tool: shell
+    description: "Wrapping AST for 606OSPackageTests for debugging"
+    inputs: ["/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OSPackageTests.swiftmodule"]
+    outputs: ["/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OSPackageTests.build/_06OSPackageTests.swiftmodule.o"]
+    args: ["/usr/bin/swiftc","-modulewrap","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OSPackageTests.swiftmodule","-o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OSPackageTests.build/_06OSPackageTests.swiftmodule.o"]
+
+  "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OSTests.build/_06OSTests.swiftmodule.o":
+    tool: shell
+    description: "Wrapping AST for 606OSTests for debugging"
+    inputs: ["/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OSTests.swiftmodule"]
+    outputs: ["/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OSTests.build/_06OSTests.swiftmodule.o"]
+    args: ["/usr/bin/swiftc","-modulewrap","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OSTests.swiftmodule","-o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OSTests.build/_06OSTests.swiftmodule.o"]
+
+  "<C.606OS-debug.exe>":
+    tool: phony
+    inputs: ["/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/606OS"]
+    outputs: ["<606OS-debug.exe>"]
+
+  "<C.606OS-debug.module>":
+    tool: phony
+    inputs: ["/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OS.swiftmodule"]
+    outputs: ["<606OS-debug.module>"]
+
+  "<C.606OSPackageTests-debug.module>":
+    tool: phony
+    inputs: ["/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OSPackageTests.swiftmodule"]
+    outputs: ["<606OSPackageTests-debug.module>"]
+
+  "<C.606OSPackageTests-debug.test>":
+    tool: phony
+    inputs: ["/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/606OSPackageTests.xctest"]
+    outputs: ["<606OSPackageTests-debug.test>"]
+
+  "<C.606OSTests-debug.module>":
+    tool: phony
+    inputs: ["/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OSTests.swiftmodule"]
+    outputs: ["<606OSTests-debug.module>"]
+
+  "<C.SwiftyGPIO-debug.module>":
+    tool: phony
+    inputs: ["/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.swiftmodule"]
+    outputs: ["<SwiftyGPIO-debug.module>"]
+
+  "C.606OS-debug.exe":
+    tool: shell
+    description: "Linking ./.build/armv6-unknown-linux-gnueabihf/debug/606OS"
+    inputs: ["/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/1Wire.swift.o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/ADC.swift.o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/I2C.swift.o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/Mailbox.swift.o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/PWM.swift.o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/Presets.swift.o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/SPI.swift.o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/SunXi.swift.o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/SwiftyGPIO.swift.o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/SwiftyGPIO.swiftmodule.o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/UART.swift.o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OS.build/Avionics.swift.o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OS.build/_06OS.swiftmodule.o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OS.build/main.swift.o"]
+    outputs: ["/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/606OS"]
+    args: ["/usr/bin/swiftc","-sdk","/","-g","-L","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug","-o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/606OS","-module-name","_06OS","-emit-executable","-Xlinker","-rpath=$ORIGIN","@/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/606OS.product/Objects.LinkFileList","-target","armv6-unknown-linux-gnueabihf","-L","/usr/lib"]
+
+  "C.606OS-debug.module":
+    tool: swift-compiler
+    executable: "/usr/bin/swiftc"
+    module-name: "_06OS"
+    module-output-path: "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OS.swiftmodule"
+    inputs: ["/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.swiftmodule","/home/pi/606OS/Sources/606OS/Avionics.swift","/home/pi/606OS/Sources/606OS/main.swift"]
+    outputs: ["/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OS.build/Avionics.swift.o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OS.build/main.swift.o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OS.swiftmodule"]
+    import-paths: ["/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug"]
+    temps-path: "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OS.build"
+    objects: ["/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OS.build/Avionics.swift.o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OS.build/main.swift.o"]
+    other-args: ["-target","armv6-unknown-linux-gnueabihf","-swift-version","5","-enable-batch-mode","-index-store-path","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/index/store","-sdk","/","-Onone","-g","-enable-testing","-j1","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/ModuleCache","-parseable-output","-Xfrontend","-color-diagnostics"]
+    sources: ["/home/pi/606OS/Sources/606OS/Avionics.swift","/home/pi/606OS/Sources/606OS/main.swift"]
+    is-library: false
+    enable-whole-module-optimization: false
+    num-threads: "1"
+
+  "C.606OSPackageTests-debug.module":
+    tool: swift-compiler
+    executable: "/usr/bin/swiftc"
+    module-name: "_06OSPackageTests"
+    module-output-path: "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OSPackageTests.swiftmodule"
+    inputs: ["/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OSTests.swiftmodule","/home/pi/606OS/Tests/LinuxMain.swift"]
+    outputs: ["/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OSPackageTests.build/LinuxMain.swift.o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OSPackageTests.swiftmodule"]
+    import-paths: ["/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug"]
+    temps-path: "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OSPackageTests.build"
+    objects: ["/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OSPackageTests.build/LinuxMain.swift.o"]
+    other-args: ["-target","armv6-unknown-linux-gnueabihf","-swift-version","5","-enable-batch-mode","-index-store-path","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/index/store","-sdk","/","-Onone","-g","-enable-testing","-j1","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/ModuleCache","-parseable-output","-Xfrontend","-color-diagnostics"]
+    sources: ["/home/pi/606OS/Tests/LinuxMain.swift"]
+    is-library: false
+    enable-whole-module-optimization: false
+    num-threads: "1"
+
+  "C.606OSPackageTests-debug.test":
+    tool: shell
+    description: "Linking ./.build/armv6-unknown-linux-gnueabihf/debug/606OSPackageTests.xctest"
+    inputs: ["/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/1Wire.swift.o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/ADC.swift.o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/I2C.swift.o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/Mailbox.swift.o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/PWM.swift.o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/Presets.swift.o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/SPI.swift.o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/SunXi.swift.o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/SwiftyGPIO.swift.o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/SwiftyGPIO.swiftmodule.o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/UART.swift.o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OSPackageTests.build/LinuxMain.swift.o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OSPackageTests.build/_06OSPackageTests.swiftmodule.o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OSTests.build/XCTestManifests.swift.o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OSTests.build/_06OSTests.swift.o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OSTests.build/_06OSTests.swiftmodule.o"]
+    outputs: ["/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/606OSPackageTests.xctest"]
+    args: ["/usr/bin/swiftc","-sdk","/","-g","-L","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug","-o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/606OSPackageTests.xctest","-module-name","_06OSPackageTests","-emit-executable","-Xlinker","-rpath=$ORIGIN","@/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/606OSPackageTests.product/Objects.LinkFileList","-target","armv6-unknown-linux-gnueabihf","-L","/usr/lib"]
+
+  "C.606OSTests-debug.module":
+    tool: swift-compiler
+    executable: "/usr/bin/swiftc"
+    module-name: "_06OSTests"
+    module-output-path: "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OSTests.swiftmodule"
+    inputs: ["/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/606OS","/home/pi/606OS/Tests/606OSTests/XCTestManifests.swift","/home/pi/606OS/Tests/606OSTests/_06OSTests.swift"]
+    outputs: ["/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OSTests.build/XCTestManifests.swift.o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OSTests.build/_06OSTests.swift.o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OSTests.swiftmodule"]
+    import-paths: ["/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug"]
+    temps-path: "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OSTests.build"
+    objects: ["/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OSTests.build/XCTestManifests.swift.o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/_06OSTests.build/_06OSTests.swift.o"]
+    other-args: ["-target","armv6-unknown-linux-gnueabihf","-swift-version","5","-enable-batch-mode","-index-store-path","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/index/store","-sdk","/","-Onone","-g","-enable-testing","-j1","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/ModuleCache","-parseable-output","-Xfrontend","-color-diagnostics"]
+    sources: ["/home/pi/606OS/Tests/606OSTests/XCTestManifests.swift","/home/pi/606OS/Tests/606OSTests/_06OSTests.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: "1"
+
+  "C.SwiftyGPIO-debug.module":
+    tool: swift-compiler
+    executable: "/usr/bin/swiftc"
+    module-name: "SwiftyGPIO"
+    module-output-path: "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.swiftmodule"
+    inputs: ["/home/pi/606OS/.build/checkouts/SwiftyGPIO/Sources/1Wire.swift","/home/pi/606OS/.build/checkouts/SwiftyGPIO/Sources/ADC.swift","/home/pi/606OS/.build/checkouts/SwiftyGPIO/Sources/I2C.swift","/home/pi/606OS/.build/checkouts/SwiftyGPIO/Sources/Mailbox.swift","/home/pi/606OS/.build/checkouts/SwiftyGPIO/Sources/PWM.swift","/home/pi/606OS/.build/checkouts/SwiftyGPIO/Sources/Presets.swift","/home/pi/606OS/.build/checkouts/SwiftyGPIO/Sources/SPI.swift","/home/pi/606OS/.build/checkouts/SwiftyGPIO/Sources/SunXi.swift","/home/pi/606OS/.build/checkouts/SwiftyGPIO/Sources/SwiftyGPIO.swift","/home/pi/606OS/.build/checkouts/SwiftyGPIO/Sources/UART.swift"]
+    outputs: ["/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/1Wire.swift.o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/ADC.swift.o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/I2C.swift.o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/Mailbox.swift.o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/PWM.swift.o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/Presets.swift.o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/SPI.swift.o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/SunXi.swift.o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/SwiftyGPIO.swift.o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/UART.swift.o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.swiftmodule"]
+    import-paths: ["/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug"]
+    temps-path: "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build"
+    objects: ["/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/1Wire.swift.o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/ADC.swift.o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/I2C.swift.o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/Mailbox.swift.o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/PWM.swift.o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/Presets.swift.o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/SPI.swift.o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/SunXi.swift.o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/SwiftyGPIO.swift.o","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/UART.swift.o"]
+    other-args: ["-target","armv6-unknown-linux-gnueabihf","-swift-version","4","-enable-batch-mode","-index-store-path","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/index/store","-sdk","/","-Onone","-g","-enable-testing","-j1","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/ModuleCache","-parseable-output","-Xfrontend","-color-diagnostics"]
+    sources: ["/home/pi/606OS/.build/checkouts/SwiftyGPIO/Sources/1Wire.swift","/home/pi/606OS/.build/checkouts/SwiftyGPIO/Sources/ADC.swift","/home/pi/606OS/.build/checkouts/SwiftyGPIO/Sources/I2C.swift","/home/pi/606OS/.build/checkouts/SwiftyGPIO/Sources/Mailbox.swift","/home/pi/606OS/.build/checkouts/SwiftyGPIO/Sources/PWM.swift","/home/pi/606OS/.build/checkouts/SwiftyGPIO/Sources/Presets.swift","/home/pi/606OS/.build/checkouts/SwiftyGPIO/Sources/SPI.swift","/home/pi/606OS/.build/checkouts/SwiftyGPIO/Sources/SunXi.swift","/home/pi/606OS/.build/checkouts/SwiftyGPIO/Sources/SwiftyGPIO.swift","/home/pi/606OS/.build/checkouts/SwiftyGPIO/Sources/UART.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: "1"
+

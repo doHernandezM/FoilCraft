@@ -1,0 +1,313 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MailBox"
+- "swift_makedev"
+provides-nominal:
+- "10SwiftyGPIO7MailBoxV"
+provides-member:
+- ["10SwiftyGPIO7MailBoxV", ""]
+depends-top-level:
+- !private "%"
+- !private "&"
+- !private "*"
+- !private "+"
+- !private "+="
+- !private "-"
+- !private "<"
+- !private "<<"
+- !private "=="
+- !private ">"
+- !private ">="
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "FloatLiteralType"
+- "Int"
+- "Int32"
+- "IntegerLiteralType"
+- !private "MAP_SHARED"
+- "MailBox"
+- !private "MemoryLayout"
+- !private "O_RDWR"
+- !private "O_SYNC"
+- !private "PAGE_SIZE"
+- !private "PROT_READ"
+- !private "PROT_WRITE"
+- !private "S_IFCHR"
+- !private "String"
+- !private "StringLiteralType"
+- "TernaryPrecedence"
+- "UInt"
+- "UInt32"
+- "UInt64"
+- "UnsafeMutableRawPointer"
+- !private "abort"
+- !private "close"
+- !private "fatalError"
+- !private "getpid"
+- !private "ioctl"
+- !private "mknod"
+- !private "mmap"
+- !private "munmap"
+- !private "off_t"
+- !private "open"
+- !private "perror"
+- !private "print"
+- "swift_makedev"
+- !private "unlink"
+- !private "|"
+- !private "|="
+- !private "~"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["Sa", "init"]
+- !private ["Sa", "subscript"]
+- !private ["SK", "init"]
+- !private ["SK", "subscript"]
+- !private ["Sz", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "pointee"]
+- !private ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "assumingMemoryBound"]
+- !private ["SL", "distance"]
+- !private ["SL", "init"]
+- !private ["SL", "pointee"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "assumingMemoryBound"]
+- !private ["s28CustomDebugStringConvertibleP", "distance"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "pointee"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "assumingMemoryBound"]
+- !private ["s17CustomReflectableP", "distance"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "pointee"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", "distance"]
+- !private ["Se", "init"]
+- !private ["Se", "subscript"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "distance"]
+- !private ["SE", "init"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "assumingMemoryBound"]
+- !private ["SQ", "distance"]
+- !private ["SQ", "init"]
+- !private ["SQ", "pointee"]
+- !private ["SQ", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "distance"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SH", "assumingMemoryBound"]
+- !private ["SH", "distance"]
+- !private ["SH", "init"]
+- !private ["SH", "pointee"]
+- !private ["SH", "subscript"]
+- !private ["Si", "init"]
+- !private ["s5Int32V", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- ["10SwiftyGPIO7MailBoxV", "Bool"]
+- !private ["10SwiftyGPIO7MailBoxV", "IOCTL_MBOX_PROPERTY"]
+- ["10SwiftyGPIO7MailBoxV", "Int"]
+- ["10SwiftyGPIO7MailBoxV", "Int32"]
+- !private ["10SwiftyGPIO7MailBoxV", "MAP_SHARED"]
+- !private ["10SwiftyGPIO7MailBoxV", "MemoryLayout"]
+- !private ["10SwiftyGPIO7MailBoxV", "O_RDWR"]
+- !private ["10SwiftyGPIO7MailBoxV", "O_SYNC"]
+- !private ["10SwiftyGPIO7MailBoxV", "PAGE_SIZE"]
+- !private ["10SwiftyGPIO7MailBoxV", "PROT_READ"]
+- !private ["10SwiftyGPIO7MailBoxV", "PROT_WRITE"]
+- !private ["10SwiftyGPIO7MailBoxV", "S_IFCHR"]
+- !private ["10SwiftyGPIO7MailBoxV", "String"]
+- ["10SwiftyGPIO7MailBoxV", "UInt"]
+- ["10SwiftyGPIO7MailBoxV", "UInt32"]
+- ["10SwiftyGPIO7MailBoxV", "UnsafeMutableRawPointer"]
+- !private ["10SwiftyGPIO7MailBoxV", "abort"]
+- ["10SwiftyGPIO7MailBoxV", "baseBusAddress"]
+- ["10SwiftyGPIO7MailBoxV", "baseVirtualAddress"]
+- ["10SwiftyGPIO7MailBoxV", "cleanup"]
+- !private ["10SwiftyGPIO7MailBoxV", "close"]
+- !private ["10SwiftyGPIO7MailBoxV", "fatalError"]
+- !private ["10SwiftyGPIO7MailBoxV", "getpid"]
+- ["10SwiftyGPIO7MailBoxV", "init"]
+- !private ["10SwiftyGPIO7MailBoxV", "ioctl"]
+- !private ["10SwiftyGPIO7MailBoxV", "mailboxClose"]
+- !private ["10SwiftyGPIO7MailBoxV", "mailboxFd"]
+- !private ["10SwiftyGPIO7MailBoxV", "mailboxOpen"]
+- !private ["10SwiftyGPIO7MailBoxV", "mailboxSetProperty"]
+- !private ["10SwiftyGPIO7MailBoxV", "mapmem"]
+- !private ["10SwiftyGPIO7MailBoxV", "memAlloc"]
+- !private ["10SwiftyGPIO7MailBoxV", "memFree"]
+- !private ["10SwiftyGPIO7MailBoxV", "memLock"]
+- !private ["10SwiftyGPIO7MailBoxV", "memRef"]
+- !private ["10SwiftyGPIO7MailBoxV", "memUnlock"]
+- !private ["10SwiftyGPIO7MailBoxV", "mknod"]
+- !private ["10SwiftyGPIO7MailBoxV", "mmap"]
+- !private ["10SwiftyGPIO7MailBoxV", "munmap"]
+- !private ["10SwiftyGPIO7MailBoxV", "off_t"]
+- !private ["10SwiftyGPIO7MailBoxV", "open"]
+- !private ["10SwiftyGPIO7MailBoxV", "perror"]
+- !private ["10SwiftyGPIO7MailBoxV", "print"]
+- ["10SwiftyGPIO7MailBoxV", "size"]
+- !private ["10SwiftyGPIO7MailBoxV", "swift_makedev"]
+- !private ["10SwiftyGPIO7MailBoxV", "unlink"]
+- !private ["10SwiftyGPIO7MailBoxV", "unmapmem"]
+- ["10SwiftyGPIO7MailBoxV", "virtualTobaseBusAddress"]
+- !private ["s12MemoryLayoutO", "size"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "init"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["Sj", "init"]
+- !private ["Sq", "distance"]
+- !private ["Sk", "init"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "init"]
+- !private ["Sm", "subscript"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "subscript"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "assumingMemoryBound"]
+- !private ["Sx", "distance"]
+- !private ["Sx", "init"]
+- !private ["Sx", "pointee"]
+- !private ["SS", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["Su", "init"]
+- !private ["s6UInt32V", "init"]
+- !private ["s6UInt64V", "init"]
+- !private ["Sp", "pointee"]
+- !private ["Sv", "assumingMemoryBound"]
+- !private ["Sv", "distance"]
+- !private ["Sv", "init"]
+- !private ["SU", "init"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["10Foundation13_CFBridgeableP", "init"]
+- !private ["10Foundation13_CFBridgeableP", "subscript"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "assumingMemoryBound"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "distance"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "pointee"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation13_NSBridgeableP", "init"]
+- !private ["10Foundation13_NSBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s8_PointerP", "assumingMemoryBound"]
+- !private ["s8_PointerP", "distance"]
+- !private ["s8_PointerP", "init"]
+- !private ["s8_PointerP", "pointee"]
+- !private ["s12_UnwrappableP", "distance"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- !private "SK"
+- !private "Sz"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "SH"
+- !private "Si"
+- !private "s5Int32V"
+- !private "s25LosslessStringConvertibleP"
+- "10SwiftyGPIO7MailBoxV"
+- !private "s12MemoryLayoutO"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "Sj"
+- !private "Sq"
+- !private "Sk"
+- !private "Sm"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "Su"
+- !private "s6UInt32V"
+- !private "s6UInt64V"
+- !private "Sp"
+- !private "Sv"
+- !private "SU"
+- !private "s14_ArrayProtocolP"
+- !private "10Foundation13_CFBridgeableP"
+- !private "s15_CVarArgAlignedP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation13_NSBridgeableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+- !private "s12_UnwrappableP"
+depends-dynamic-lookup:
+depends-external:
+- "/usr/lib/swift/linux/armv6/Glibc.swiftmodule"
+- "/usr/lib/swift/linux/armv6/Dispatch.swiftmodule"
+- "/usr/lib/swift/linux/armv6/Foundation.swiftmodule"
+- "/usr/lib/swift/linux/armv6/Swift.swiftmodule"
+- "/usr/lib/swift/linux/armv6/SwiftOnoneSupport.swiftmodule"
+- "/usr/lib/swift/linux/armv6/glibc.modulemap"
+interface-hash: "aa41345c9a552ea15b7eef5eb90b243b"

@@ -1,0 +1,141 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "writeBuffer"
+- "period"
+- "pwms"
+- "pwm"
+- "exit"
+provides-nominal:
+provides-member:
+depends-top-level:
+- "!"
+- "=="
+- "??"
+- "AssignmentPrecedence"
+- "BooleanLiteralType"
+- "Float"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "StringLiteralType"
+- "SwiftyGPIO"
+- "TernaryPrecedence"
+- "UnicodeScalarType"
+- "exit"
+- "period"
+- "print"
+- "pwm"
+- "pwms"
+- "readLine"
+- "writeBuffer"
+depends-member:
+- ["s18AdditiveArithmeticP", "init"]
+- ["SB", "init"]
+- ["s7CVarArgP", "init"]
+- ["Sl", "subscript"]
+- ["SL", "P18"]
+- ["SL", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "subscript"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "subscript"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "subscript"]
+- ["Se", "P18"]
+- ["Se", "RaspberryPiPlusZero"]
+- ["Se", "init"]
+- ["Se", "subscript"]
+- ["SD", "subscript"]
+- ["SE", "P18"]
+- ["SE", "RaspberryPiPlusZero"]
+- ["SE", "init"]
+- ["SE", "subscript"]
+- ["SQ", "P18"]
+- ["SQ", "RaspberryPiPlusZero"]
+- ["SQ", "init"]
+- ["SQ", "subscript"]
+- ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- ["s25ExpressibleByFloatLiteralP", "init"]
+- ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["Sf", "init"]
+- ["SF", "init"]
+- ["10SwiftyGPIO8GPIONameO", "P18"]
+- ["SH", "P18"]
+- ["SH", "RaspberryPiPlusZero"]
+- ["SH", "init"]
+- ["SH", "subscript"]
+- ["SD5IndexV", "P18"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["Sj", "init"]
+- ["10SwiftyGPIO9PWMOutputP", "initPWM"]
+- ["10SwiftyGPIO9PWMOutputP", "startPWM"]
+- ["SY", "P18"]
+- ["SY", "RaspberryPiPlusZero"]
+- ["s10SIMDScalarP", "init"]
+- ["ST", "subscript"]
+- ["s13SignedNumericP", "init"]
+- ["Sx", "init"]
+- ["10SwiftyGPIO14SupportedBoardO", "RaspberryPiPlusZero"]
+- ["10SwiftyGPIOAAV", "hardwarePWMs"]
+- ["s20TextOutputStreamableP", "init"]
+- ["10Foundation13_CFBridgeableP", "subscript"]
+- ["s15_CVarArgAlignedP", "init"]
+- ["s22_CVarArgPassedAsDoubleP", "init"]
+- ["s30_CustomPlaygroundQuickLookableP", "init"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- ["10Foundation13_NSBridgeableP", "subscript"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- "s18AdditiveArithmeticP"
+- "SB"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SD"
+- "SE"
+- "SQ"
+- "s30ExpressibleByDictionaryLiteralP"
+- "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- "Sf"
+- "SF"
+- "10SwiftyGPIO8GPIONameO"
+- "SH"
+- "SD5IndexV"
+- "s25LosslessStringConvertibleP"
+- "Sj"
+- "10SwiftyGPIO9PWMOutputP"
+- "SY"
+- "s10SIMDScalarP"
+- "ST"
+- "s13SignedNumericP"
+- "Sx"
+- "10SwiftyGPIO14SupportedBoardO"
+- "10SwiftyGPIOAAV"
+- "s20TextOutputStreamableP"
+- "10Foundation13_CFBridgeableP"
+- "s15_CVarArgAlignedP"
+- "s22_CVarArgPassedAsDoubleP"
+- "s30_CustomPlaygroundQuickLookableP"
+- "s33_ExpressibleByBuiltinFloatLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation13_NSBridgeableP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.swiftmodule"
+- "/usr/lib/swift/linux/armv6/Glibc.swiftmodule"
+- "/usr/lib/swift/linux/armv6/Dispatch.swiftmodule"
+- "/usr/lib/swift/linux/armv6/Foundation.swiftmodule"
+- "/usr/lib/swift/linux/armv6/Swift.swiftmodule"
+- "/usr/lib/swift/linux/armv6/SwiftOnoneSupport.swiftmodule"
+- "/usr/lib/swift/linux/armv6/glibc.modulemap"
+interface-hash: "5079052cfca522b88ac45d5d10bc4356"

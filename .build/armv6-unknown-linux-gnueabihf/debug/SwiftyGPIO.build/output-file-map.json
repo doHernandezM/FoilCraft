@@ -1,0 +1,65 @@
+{
+  "": {
+    "swift-dependencies": "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/master.swiftdeps"
+  },
+  "/home/pi/606OS/.build/checkouts/SwiftyGPIO/Sources/1Wire.swift": {
+    "dependencies": "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/1Wire.d",
+    "object": "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/1Wire.swift.o",
+    "swiftmodule": "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/1Wire~partial.swiftmodule",
+    "swift-dependencies": "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/1Wire.swiftdeps"
+  },
+  "/home/pi/606OS/.build/checkouts/SwiftyGPIO/Sources/ADC.swift": {
+    "dependencies": "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/ADC.d",
+    "object": "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/ADC.swift.o",
+    "swiftmodule": "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/ADC~partial.swiftmodule",
+    "swift-dependencies": "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/ADC.swiftdeps"
+  },
+  "/home/pi/606OS/.build/checkouts/SwiftyGPIO/Sources/I2C.swift": {
+    "dependencies": "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/I2C.d",
+    "object": "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/I2C.swift.o",
+    "swiftmodule": "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/I2C~partial.swiftmodule",
+    "swift-dependencies": "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/I2C.swiftdeps"
+  },
+  "/home/pi/606OS/.build/checkouts/SwiftyGPIO/Sources/Mailbox.swift": {
+    "dependencies": "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/Mailbox.d",
+    "object": "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/Mailbox.swift.o",
+    "swiftmodule": "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/Mailbox~partial.swiftmodule",
+    "swift-dependencies": "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/Mailbox.swiftdeps"
+  },
+  "/home/pi/606OS/.build/checkouts/SwiftyGPIO/Sources/PWM.swift": {
+    "dependencies": "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/PWM.d",
+    "object": "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/PWM.swift.o",
+    "swiftmodule": "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/PWM~partial.swiftmodule",
+    "swift-dependencies": "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/PWM.swiftdeps"
+  },
+  "/home/pi/606OS/.build/checkouts/SwiftyGPIO/Sources/Presets.swift": {
+    "dependencies": "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/Presets.d",
+    "object": "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/Presets.swift.o",
+    "swiftmodule": "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/Presets~partial.swiftmodule",
+    "swift-dependencies": "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/Presets.swiftdeps"
+  },
+  "/home/pi/606OS/.build/checkouts/SwiftyGPIO/Sources/SPI.swift": {
+    "dependencies": "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/SPI.d",
+    "object": "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/SPI.swift.o",
+    "swiftmodule": "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/SPI~partial.swiftmodule",
+    "swift-dependencies": "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/SPI.swiftdeps"
+  },
+  "/home/pi/606OS/.build/checkouts/SwiftyGPIO/Sources/SunXi.swift": {
+    "dependencies": "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/SunXi.d",
+    "object": "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/SunXi.swift.o",
+    "swiftmodule": "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/SunXi~partial.swiftmodule",
+    "swift-dependencies": "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/SunXi.swiftdeps"
+  },
+  "/home/pi/606OS/.build/checkouts/SwiftyGPIO/Sources/SwiftyGPIO.swift": {
+    "dependencies": "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/SwiftyGPIO.d",
+    "object": "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/SwiftyGPIO.swift.o",
+    "swiftmodule": "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/SwiftyGPIO~partial.swiftmodule",
+    "swift-dependencies": "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/SwiftyGPIO.swiftdeps"
+  },
+  "/home/pi/606OS/.build/checkouts/SwiftyGPIO/Sources/UART.swift": {
+    "dependencies": "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/UART.d",
+    "object": "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/UART.swift.o",
+    "swiftmodule": "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/UART~partial.swiftmodule",
+    "swift-dependencies": "/home/pi/606OS/.build/armv6-unknown-linux-gnueabihf/debug/SwiftyGPIO.build/UART.swiftdeps"
+  }
+}

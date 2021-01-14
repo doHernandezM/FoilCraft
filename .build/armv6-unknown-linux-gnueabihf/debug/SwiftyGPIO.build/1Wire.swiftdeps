@@ -1,0 +1,265 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "OneWireInterface"
+- "SysFSOneWire"
+- "ONEWIREBASEPATH"
+provides-nominal:
+- "10SwiftyGPIO16OneWireInterfaceP"
+- "10SwiftyGPIO12SysFSOneWireC"
+provides-member:
+- ["10SwiftyGPIOAAV", ""]
+- ["10SwiftyGPIO16OneWireInterfaceP", ""]
+- ["10SwiftyGPIO12SysFSOneWireC", ""]
+- ["10SwiftyGPIOAAV", "hardware1Wires"]
+depends-top-level:
+- !private "!="
+- !private "+"
+- !private ">"
+- "AssignmentPrecedence"
+- !private "CChar"
+- "FILE"
+- !private "FloatLiteralType"
+- "Int"
+- !private "Int32"
+- !private "IntegerLiteralType"
+- "ONEWIREBASEPATH"
+- !private "O_RDONLY"
+- !private "O_SYNC"
+- "OneWireInterface"
+- "String"
+- "StringLiteralType"
+- "SupportedBoard"
+- "SwiftyGPIO"
+- "SysFSOneWire"
+- !private "UnicodeScalarType"
+- "UnsafeMutablePointer"
+- !private "abort"
+- !private "close"
+- !private "fdopen"
+- !private "feof"
+- !private "fgets"
+- !private "open"
+- !private "perror"
+- !private "|"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["Sa", "append"]
+- !private ["Sa", "init"]
+- !private ["SK", "append"]
+- !private ["SK", "init"]
+- !private ["Sz", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["Sl", "append"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- ["Se", "RaspberryPi2"]
+- ["Se", "RaspberryPi3"]
+- ["Se", "RaspberryPiPlusZero"]
+- ["Se", "RaspberryPiRev1"]
+- ["Se", "RaspberryPiRev2"]
+- !private ["Se", "append"]
+- !private ["Se", "init"]
+- ["SE", "RaspberryPi2"]
+- ["SE", "RaspberryPi3"]
+- ["SE", "RaspberryPiPlusZero"]
+- ["SE", "RaspberryPiRev1"]
+- ["SE", "RaspberryPiRev2"]
+- !private ["SE", "append"]
+- !private ["SE", "init"]
+- ["SQ", "RaspberryPi2"]
+- ["SQ", "RaspberryPi3"]
+- ["SQ", "RaspberryPiPlusZero"]
+- ["SQ", "RaspberryPiRev1"]
+- ["SQ", "RaspberryPiRev2"]
+- !private ["SQ", "append"]
+- !private ["SQ", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- ["SH", "RaspberryPi2"]
+- ["SH", "RaspberryPi3"]
+- ["SH", "RaspberryPiPlusZero"]
+- ["SH", "RaspberryPiRev1"]
+- ["SH", "RaspberryPiRev2"]
+- !private ["SH", "append"]
+- !private ["SH", "init"]
+- !private ["s5Int32V", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "append"]
+- !private ["SM", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["Sj", "init"]
+- !private ["10SwiftyGPIO16OneWireInterfaceP", "CChar"]
+- !private ["10SwiftyGPIO16OneWireInterfaceP", "Int32"]
+- !private ["10SwiftyGPIO16OneWireInterfaceP", "ONEWIREBASEPATH"]
+- !private ["10SwiftyGPIO16OneWireInterfaceP", "O_RDONLY"]
+- !private ["10SwiftyGPIO16OneWireInterfaceP", "O_SYNC"]
+- ["10SwiftyGPIO16OneWireInterfaceP", "String"]
+- ["10SwiftyGPIO16OneWireInterfaceP", ""]
+- !private ["10SwiftyGPIO16OneWireInterfaceP", "abort"]
+- !private ["10SwiftyGPIO16OneWireInterfaceP", "close"]
+- !private ["10SwiftyGPIO16OneWireInterfaceP", "fdopen"]
+- !private ["10SwiftyGPIO16OneWireInterfaceP", "feof"]
+- !private ["10SwiftyGPIO16OneWireInterfaceP", "fgets"]
+- ["10SwiftyGPIO16OneWireInterfaceP", "getSlaves"]
+- !private ["10SwiftyGPIO16OneWireInterfaceP", "init"]
+- !private ["10SwiftyGPIO16OneWireInterfaceP", "masterId"]
+- !private ["10SwiftyGPIO16OneWireInterfaceP", "open"]
+- !private ["10SwiftyGPIO16OneWireInterfaceP", "perror"]
+- ["10SwiftyGPIO16OneWireInterfaceP", "readData"]
+- !private ["10SwiftyGPIO16OneWireInterfaceP", "readFile"]
+- !private ["10SwiftyGPIO16OneWireInterfaceP", "readLine"]
+- !private ["Sk", "append"]
+- !private ["Sk", "init"]
+- !private ["Sm", "append"]
+- !private ["Sm", "init"]
+- ["SY", "RaspberryPi2"]
+- ["SY", "RaspberryPi3"]
+- ["SY", "RaspberryPiPlusZero"]
+- ["SY", "RaspberryPiRev1"]
+- ["SY", "RaspberryPiRev2"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "append"]
+- !private ["ST", "init"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- ["10SwiftyGPIO14SupportedBoardO", "RaspberryPi2"]
+- ["10SwiftyGPIO14SupportedBoardO", "RaspberryPi3"]
+- ["10SwiftyGPIO14SupportedBoardO", "RaspberryPiPlusZero"]
+- ["10SwiftyGPIO14SupportedBoardO", "RaspberryPiRev1"]
+- ["10SwiftyGPIO14SupportedBoardO", "RaspberryPiRev2"]
+- ["10SwiftyGPIOAAV", "OneWireInterface"]
+- ["10SwiftyGPIOAAV", "SupportedBoard"]
+- !private ["10SwiftyGPIOAAV", "SysFSOneWire"]
+- ["10SwiftyGPIOAAV", "hardware1Wires"]
+- !private ["10SwiftyGPIO12SysFSOneWireC", "CChar"]
+- ["10SwiftyGPIO12SysFSOneWireC", "FILE"]
+- ["10SwiftyGPIO12SysFSOneWireC", "Int"]
+- !private ["10SwiftyGPIO12SysFSOneWireC", "Int32"]
+- !private ["10SwiftyGPIO12SysFSOneWireC", "ONEWIREBASEPATH"]
+- !private ["10SwiftyGPIO12SysFSOneWireC", "O_RDONLY"]
+- !private ["10SwiftyGPIO12SysFSOneWireC", "O_SYNC"]
+- ["10SwiftyGPIO12SysFSOneWireC", "String"]
+- ["10SwiftyGPIO12SysFSOneWireC", "UnsafeMutablePointer"]
+- !private ["10SwiftyGPIO12SysFSOneWireC", "abort"]
+- !private ["10SwiftyGPIO12SysFSOneWireC", "close"]
+- ["10SwiftyGPIO12SysFSOneWireC", "deinit"]
+- !private ["10SwiftyGPIO12SysFSOneWireC", "fdopen"]
+- !private ["10SwiftyGPIO12SysFSOneWireC", "feof"]
+- !private ["10SwiftyGPIO12SysFSOneWireC", "fgets"]
+- ["10SwiftyGPIO12SysFSOneWireC", "getSlaves"]
+- ["10SwiftyGPIO12SysFSOneWireC", "init"]
+- ["10SwiftyGPIO12SysFSOneWireC", "masterId"]
+- !private ["10SwiftyGPIO12SysFSOneWireC", "open"]
+- !private ["10SwiftyGPIO12SysFSOneWireC", "perror"]
+- ["10SwiftyGPIO12SysFSOneWireC", "readData"]
+- !private ["10SwiftyGPIO12SysFSOneWireC", "readFile"]
+- ["10SwiftyGPIO12SysFSOneWireC", "readLine"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["10Foundation13_CFBridgeableP", "append"]
+- !private ["10Foundation13_CFBridgeableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["10Foundation13_NSBridgeableP", "append"]
+- !private ["10Foundation13_NSBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- !private "SK"
+- !private "Sz"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "SH"
+- !private "s5Int32V"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "Sj"
+- "10SwiftyGPIO16OneWireInterfaceP"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "SS"
+- !private "Sy"
+- "10SwiftyGPIO14SupportedBoardO"
+- "10SwiftyGPIOAAV"
+- "10SwiftyGPIO12SysFSOneWireC"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s14_ArrayProtocolP"
+- !private "10Foundation13_CFBridgeableP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation13_NSBridgeableP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/usr/lib/swift/linux/armv6/Glibc.swiftmodule"
+- "/usr/lib/swift/linux/armv6/Dispatch.swiftmodule"
+- "/usr/lib/swift/linux/armv6/Foundation.swiftmodule"
+- "/usr/lib/swift/linux/armv6/Swift.swiftmodule"
+- "/usr/lib/swift/linux/armv6/SwiftOnoneSupport.swiftmodule"
+- "/usr/lib/swift/linux/armv6/glibc.modulemap"
+interface-hash: "9c9bbbfd353a314ff3a2d40c014bb6b5"

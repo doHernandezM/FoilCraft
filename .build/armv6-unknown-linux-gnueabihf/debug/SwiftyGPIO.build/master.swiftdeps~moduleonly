@@ -1,0 +1,14 @@
+version: "Swift version 5.1.5 (swift-5.1.5-RELEASE)"
+options: "0ae5fffa0812571c708b190a6d2781c0"
+build_time: [1609190076, 481309576]
+inputs:
+  "/home/pi/606OS/.build/checkouts/SwiftyGPIO/Sources/1Wire.swift": [1609190072, 411337191]
+  "/home/pi/606OS/.build/checkouts/SwiftyGPIO/Sources/ADC.swift": [1609190072, 411337191]
+  "/home/pi/606OS/.build/checkouts/SwiftyGPIO/Sources/I2C.swift": [1609190072, 411337191]
+  "/home/pi/606OS/.build/checkouts/SwiftyGPIO/Sources/Mailbox.swift": [1609190072, 411337191]
+  "/home/pi/606OS/.build/checkouts/SwiftyGPIO/Sources/PWM.swift": [1609190072, 421337079]
+  "/home/pi/606OS/.build/checkouts/SwiftyGPIO/Sources/Presets.swift": [1609190072, 421337079]
+  "/home/pi/606OS/.build/checkouts/SwiftyGPIO/Sources/SPI.swift": [1609190072, 421337079]
+  "/home/pi/606OS/.build/checkouts/SwiftyGPIO/Sources/SunXi.swift": [1609190072, 421337079]
+  "/home/pi/606OS/.build/checkouts/SwiftyGPIO/Sources/SwiftyGPIO.swift": [1609190072, 551335622]
+  "/home/pi/606OS/.build/checkouts/SwiftyGPIO/Sources/UART.swift": [1609190072, 421337079]

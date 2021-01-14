@@ -1,0 +1,395 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ADCError"
+- "ADCInterface"
+- "SysFSADC"
+provides-nominal:
+- "10SwiftyGPIO8ADCErrorO"
+- "10SwiftyGPIO12ADCInterfaceP"
+- "10SwiftyGPIO8SysFSADCC"
+provides-member:
+- ["10SwiftyGPIO8ADCErrorO", ""]
+- ["10SwiftyGPIOAAV", ""]
+- ["10SwiftyGPIO12ADCInterfaceP", ""]
+- ["10SwiftyGPIO8SysFSADCC", ""]
+- ["10SwiftyGPIOAAV", "hardwareADCs"]
+- ["10SwiftyGPIOAAV", "ADCBBB"]
+depends-top-level:
+- !private "!="
+- !private "<"
+- !private "<="
+- "=="
+- !private ">"
+- "ADCError"
+- "ADCInterface"
+- "AssignmentPrecedence"
+- !private "CChar"
+- !private "CharacterSet"
+- "Error"
+- "FloatLiteralType"
+- "Int"
+- "Int32"
+- "IntegerLiteralType"
+- !private "O_RDONLY"
+- "String"
+- "StringLiteralType"
+- "SupportedBoard"
+- "SwiftyGPIO"
+- "SysFSADC"
+- !private "close"
+- !private "errno"
+- !private "fatalError"
+- !private "open"
+- !private "print"
+- !private "read"
+- !private "strerror"
+depends-member:
+- ["10SwiftyGPIO8ADCErrorO", "=="]
+- ["10SwiftyGPIO8ADCErrorO", "__derived_enum_equals"]
+- ["10SwiftyGPIO8ADCErrorO", "_code"]
+- ["10SwiftyGPIO8ADCErrorO", "_domain"]
+- ["10SwiftyGPIO8ADCErrorO", "_rawHashValue"]
+- ["10SwiftyGPIO8ADCErrorO", "_userInfo"]
+- ["10SwiftyGPIO8ADCErrorO", "conversionError"]
+- ["10SwiftyGPIO8ADCErrorO", "deinit"]
+- ["10SwiftyGPIO8ADCErrorO", "fileError"]
+- ["10SwiftyGPIO8ADCErrorO", "hash"]
+- ["10SwiftyGPIO8ADCErrorO", "hashValue"]
+- ["10SwiftyGPIO8ADCErrorO", "readError"]
+- !private ["10SwiftyGPIO12ADCInterfaceP", "ADCError"]
+- !private ["10SwiftyGPIO12ADCInterfaceP", "CChar"]
+- !private ["10SwiftyGPIO12ADCInterfaceP", "CharacterSet"]
+- ["10SwiftyGPIO12ADCInterfaceP", "Int"]
+- !private ["10SwiftyGPIO12ADCInterfaceP", "O_RDONLY"]
+- !private ["10SwiftyGPIO12ADCInterfaceP", "String"]
+- ["10SwiftyGPIO12ADCInterfaceP", ""]
+- !private ["10SwiftyGPIO12ADCInterfaceP", "adcPath"]
+- !private ["10SwiftyGPIO12ADCInterfaceP", "close"]
+- !private ["10SwiftyGPIO12ADCInterfaceP", "closeADC"]
+- !private ["10SwiftyGPIO12ADCInterfaceP", "errno"]
+- !private ["10SwiftyGPIO12ADCInterfaceP", "fatalError"]
+- !private ["10SwiftyGPIO12ADCInterfaceP", "fd"]
+- ["10SwiftyGPIO12ADCInterfaceP", "getSample"]
+- ["10SwiftyGPIO12ADCInterfaceP", "id"]
+- ["10SwiftyGPIO12ADCInterfaceP", "init"]
+- !private ["10SwiftyGPIO12ADCInterfaceP", "open"]
+- !private ["10SwiftyGPIO12ADCInterfaceP", "openADC"]
+- !private ["10SwiftyGPIO12ADCInterfaceP", "print"]
+- !private ["10SwiftyGPIO12ADCInterfaceP", "read"]
+- !private ["10SwiftyGPIO12ADCInterfaceP", "strerror"]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["Sa", "init"]
+- !private ["Sa", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "trimmingCharacters"]
+- !private ["Sz", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["10Foundation12CharacterSetV", "whitespacesAndNewlines"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "trimmingCharacters"]
+- !private ["SL", "init"]
+- !private ["SL", "trimmingCharacters"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "trimmingCharacters"]
+- !private ["s28CustomDebugStringConvertibleP", "whitespacesAndNewlines"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "trimmingCharacters"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "trimmingCharacters"]
+- !private ["s23CustomStringConvertibleP", "utf8"]
+- !private ["s23CustomStringConvertibleP", "whitespacesAndNewlines"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- ["Se", "BeagleBoneBlack"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "subscript"]
+- !private ["Se", "trimmingCharacters"]
+- !private ["Se", "whitespacesAndNewlines"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SD", "subscript"]
+- ["SE", "BeagleBoneBlack"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "subscript"]
+- !private ["SE", "trimmingCharacters"]
+- !private ["SE", "whitespacesAndNewlines"]
+- !private ["SS10FoundationE8EncodingV", "utf8"]
+- ["SQ", "=="]
+- ["SQ", "BeagleBoneBlack"]
+- ["SQ", ""]
+- ["SQ", "_code"]
+- ["SQ", "_domain"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "_userInfo"]
+- !private ["SQ", "conversionError"]
+- !private ["SQ", "fileError"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "readError"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "trimmingCharacters"]
+- !private ["SQ", "utf8"]
+- !private ["SQ", "whitespacesAndNewlines"]
+- ["s5ErrorP", "=="]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_rawHashValue"]
+- ["s5ErrorP", "_userInfo"]
+- !private ["s5ErrorP", "conversionError"]
+- !private ["s5ErrorP", "fileError"]
+- ["s5ErrorP", "hash"]
+- ["s5ErrorP", "hashValue"]
+- !private ["s5ErrorP", "readError"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "whitespacesAndNewlines"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "trimmingCharacters"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "trimmingCharacters"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "trimmingCharacters"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "trimmingCharacters"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- ["SH", "=="]
+- ["SH", "BeagleBoneBlack"]
+- ["SH", ""]
+- ["SH", "_code"]
+- ["SH", "_domain"]
+- ["SH", "_rawHashValue"]
+- ["SH", "_userInfo"]
+- !private ["SH", "conversionError"]
+- !private ["SH", "fileError"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "readError"]
+- !private ["SH", "subscript"]
+- !private ["SH", "trimmingCharacters"]
+- !private ["SH", "utf8"]
+- !private ["SH", "whitespacesAndNewlines"]
+- !private ["s6HasherV", "combine"]
+- !private ["Si", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "trimmingCharacters"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "trimmingCharacters"]
+- !private ["SM", "init"]
+- !private ["SM", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation8NSCodingP", "trimmingCharacters"]
+- !private ["10Foundation9NSCopyingP", "trimmingCharacters"]
+- !private ["10Foundation16NSMutableCopyingP", "trimmingCharacters"]
+- !private ["10Foundation8NSObjectC", "trimmingCharacters"]
+- !private ["10Foundation16NSObjectProtocolP", "trimmingCharacters"]
+- !private ["10Foundation14NSSecureCodingP", "trimmingCharacters"]
+- !private ["10Foundation8NSStringC", "trimmingCharacters"]
+- !private ["Sj", "init"]
+- !private ["Sk", "init"]
+- !private ["Sk", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "trimmingCharacters"]
+- ["SY", "BeagleBoneBlack"]
+- !private ["SY", "utf8"]
+- !private ["10Foundation20ReferenceConvertibleP", "whitespacesAndNewlines"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "subscript"]
+- !private ["ST", "trimmingCharacters"]
+- !private ["s10SetAlgebraP", "whitespacesAndNewlines"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "trimmingCharacters"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "init"]
+- !private ["Sy", "trimmingCharacters"]
+- ["10SwiftyGPIO14SupportedBoardO", "BeagleBoneBlack"]
+- ["10SwiftyGPIOAAV", "ADCBBB"]
+- ["10SwiftyGPIOAAV", "ADCInterface"]
+- ["10SwiftyGPIOAAV", "Int"]
+- ["10SwiftyGPIOAAV", "SupportedBoard"]
+- ["10SwiftyGPIOAAV", "SysFSADC"]
+- ["10SwiftyGPIOAAV", "hardwareADCs"]
+- !private ["10SwiftyGPIO8SysFSADCC", "ADCError"]
+- !private ["10SwiftyGPIO8SysFSADCC", "CChar"]
+- !private ["10SwiftyGPIO8SysFSADCC", "CharacterSet"]
+- ["10SwiftyGPIO8SysFSADCC", "Int"]
+- ["10SwiftyGPIO8SysFSADCC", "Int32"]
+- !private ["10SwiftyGPIO8SysFSADCC", "O_RDONLY"]
+- ["10SwiftyGPIO8SysFSADCC", "String"]
+- ["10SwiftyGPIO8SysFSADCC", "adcPath"]
+- !private ["10SwiftyGPIO8SysFSADCC", "close"]
+- !private ["10SwiftyGPIO8SysFSADCC", "closeADC"]
+- ["10SwiftyGPIO8SysFSADCC", "deinit"]
+- !private ["10SwiftyGPIO8SysFSADCC", "errno"]
+- !private ["10SwiftyGPIO8SysFSADCC", "fatalError"]
+- ["10SwiftyGPIO8SysFSADCC", "fd"]
+- ["10SwiftyGPIO8SysFSADCC", "getSample"]
+- ["10SwiftyGPIO8SysFSADCC", "id"]
+- ["10SwiftyGPIO8SysFSADCC", "init"]
+- !private ["10SwiftyGPIO8SysFSADCC", "open"]
+- !private ["10SwiftyGPIO8SysFSADCC", "openADC"]
+- !private ["10SwiftyGPIO8SysFSADCC", "print"]
+- !private ["10SwiftyGPIO8SysFSADCC", "read"]
+- !private ["10SwiftyGPIO8SysFSADCC", "strerror"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "trimmingCharacters"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "trimmingCharacters"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["10Foundation13_CFBridgeableP", "init"]
+- !private ["10Foundation13_CFBridgeableP", "init"]
+- !private ["10Foundation13_CFBridgeableP", "subscript"]
+- !private ["10Foundation13_CFBridgeableP", "trimmingCharacters"]
+- !private ["10Foundation13_CFBridgeableP", "whitespacesAndNewlines"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "trimmingCharacters"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "trimmingCharacters"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "trimmingCharacters"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "trimmingCharacters"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "trimmingCharacters"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation18_MutablePairBoxingP", "whitespacesAndNewlines"]
+- !private ["10Foundation13_NSBridgeableP", "init"]
+- !private ["10Foundation13_NSBridgeableP", "init"]
+- !private ["10Foundation13_NSBridgeableP", "subscript"]
+- !private ["10Foundation13_NSBridgeableP", "trimmingCharacters"]
+- !private ["10Foundation13_NSBridgeableP", "whitespacesAndNewlines"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "trimmingCharacters"]
+- !private ["s21_ObjectiveCBridgeableP", "whitespacesAndNewlines"]
+- !private ["10Foundation17_StructBridgeableP", "trimmingCharacters"]
+- !private ["10Foundation21_StructTypeBridgeableP", "trimmingCharacters"]
+- !private ["10Foundation16_SwiftBridgeableP", "trimmingCharacters"]
+depends-nominal:
+- "10SwiftyGPIO8ADCErrorO"
+- "10SwiftyGPIO12ADCInterfaceP"
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- !private "SK"
+- !private "Sz"
+- !private "s7CVarArgP"
+- !private "10Foundation12CharacterSetV"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SD"
+- "SE"
+- !private "SS10FoundationE8EncodingV"
+- "SQ"
+- "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "SH"
+- !private "s6HasherV"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "10Foundation8NSCodingP"
+- !private "10Foundation9NSCopyingP"
+- !private "10Foundation16NSMutableCopyingP"
+- !private "10Foundation8NSObjectC"
+- !private "10Foundation16NSObjectProtocolP"
+- !private "10Foundation14NSSecureCodingP"
+- !private "10Foundation8NSStringC"
+- !private "Sj"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "s10SetAlgebraP"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- "10SwiftyGPIO14SupportedBoardO"
+- "10SwiftyGPIOAAV"
+- "10SwiftyGPIO8SysFSADCC"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s14_ArrayProtocolP"
+- !private "10Foundation13_CFBridgeableP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation18_MutablePairBoxingP"
+- !private "10Foundation13_NSBridgeableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "10Foundation17_StructBridgeableP"
+- !private "10Foundation21_StructTypeBridgeableP"
+- !private "10Foundation16_SwiftBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/usr/lib/swift/linux/armv6/Glibc.swiftmodule"
+- "/usr/lib/swift/linux/armv6/Dispatch.swiftmodule"
+- "/usr/lib/swift/linux/armv6/Foundation.swiftmodule"
+- "/usr/lib/swift/linux/armv6/Swift.swiftmodule"
+- "/usr/lib/swift/linux/armv6/SwiftOnoneSupport.swiftmodule"
+- "/usr/lib/swift/linux/armv6/glibc.modulemap"
+interface-hash: "125bc30465b2d6b7ab89ce6f93de7edf"
