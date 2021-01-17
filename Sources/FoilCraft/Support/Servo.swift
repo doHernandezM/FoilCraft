@@ -16,10 +16,14 @@ var pwm1:PWMOutput? = nil
 fileprivate let rpiServoRange:[Float] = [40,98]
 
 let pca9685 = PCA9685(supportedBoard: .RaspberryPiPlusZero)
-fileprivate let pcaServoRange:[Float] = [632,1875]
+fileprivate let pcaRangeServo:[Float] = [5,12]
+fileprivate let pcaRangeESC:[Float] = [632,1500]
 
 class Servo {
-    
+    enum ServoType {
+        case Servo
+        case ESC
+    }
     enum Location {
         case Arduino
         case RPI
@@ -28,12 +32,16 @@ class Servo {
     
     var pwm:PWMOutput? = nil
     
+    var type = ServoType.Servo
+    var servoRange:[Float] = pcaRangeServo
     let location:Location?
     var channel:UInt8? = 0
     var speed:Float = 0
     
-    init(thePWM: PWMOutput?, theLocation: Location, theChannel: UInt8?) {
+    init(thePWM: PWMOutput?, theType: ServoType, theLocation: Location, theChannel: UInt8?) {
         pwm = thePWM
+        type = theType
+        if (type == .ESC) {servoRange = pcaRangeESC}
         location = theLocation
         channel = theChannel
         
@@ -68,13 +76,13 @@ class Servo {
         case .Arduino:
             print("Arduino")
         case .RPI:
-            servoSteps = UInt16(map(value: speed, fromLow: 0, fromHigh: 100, toLow: rpiServoRange[0], toHigh: rpiServoRange[1]))
+            servoSteps = UInt16(map(value: speed, fromLow: 0, fromHigh: 255, toLow: rpiServoRange[0], toHigh: rpiServoRange[1]))
             pwm?.startPWM(period:period , duty: speed)
-            print("RPI", speed, servoSteps)
+//            print("RPI", speed, servoSteps)
         case .PCA:
-            servoSteps = UInt16(map(value: speed, fromLow: 0, fromHigh: 100, toLow: pcaServoRange[0], toHigh: pcaServoRange[1]))
-            pca9685.setChannel(channel!, onStep: 0, offStep: UInt16(servoSteps ) )
-            print("PCA", speed, servoSteps, servoSteps)
+            servoSteps = UInt16(map(value: speed, fromLow: 0, fromHigh: 255, toLow: pcaRangeESC[0], toHigh: pcaRangeESC[1]))
+            pca9685.setChannel(channel!, onStep: 0, offStep: UInt16(servoSteps))
+//            print("PCA", speed, servoSteps, servoSteps)
         default:
             break
         }

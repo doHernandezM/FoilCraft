@@ -16,7 +16,6 @@ class SerialController {
     var receiveThread:Thread! = nil
     var serialPort: SerialPort = SerialPort(path: portName)
     
-    let checkBytes = 5
     let cleanBytes: [UInt8] = [90,78,56,34,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
     var dirtyBytes: [UInt8] = [90,78,56,34,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
     var bytes: [UInt8] = [90,78,56,34,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
@@ -74,7 +73,7 @@ class SerialController {
                 } else {
                     bytes = dirtyBytes
                 }
-//                print(bytes)
+                delegate.receiveData(bytes: bytes)
             } catch {
                 print("Error: \(error)")
             }
